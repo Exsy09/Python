@@ -32,3 +32,15 @@ print(lista3) # Ordena la lista, solo numeros y cadenas
 print(lista3)
 lista3.sort(reverse=True) # Ordena invertido
 print(lista3)
+
+print(lista3)
+lista3.extend(lista4)
+print(lista3)
+
+print(lista3)
+lista3.insert(2, 15) # Inserta el valor 15 en la posicion 2
+print(lista3)
+
+print(lista3)
+print(lista3.count(6)) # Devuelve el numero de veces que aparece el elemento en la lista
+print(lista3.index(34)) # Devuelve la posicion en la que se encuetra el elemento
