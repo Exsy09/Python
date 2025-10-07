@@ -1,4 +1,4 @@
-from os import truncate
+
 
 n1 = float(input("Trabajo en clase: "))
 n2 = float(input("Ejercicios prácticos: "))
