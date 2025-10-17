@@ -1,4 +1,6 @@
-i = float(input("Dame un numero: "))
-while i > 1:
-    i = i/2
-    print(round(i, 2))
+import random
+
+i = int(input("Numero 1: "))
+j = int(input("Numero 2: "))
+if i > j:
+    print(random.randint(j, i))
