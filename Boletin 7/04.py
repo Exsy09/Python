@@ -1,0 +1,2 @@
+nota = int(input("¿Cual ha sido tu nota? "))
+print(f"{'No valido' if nota>10 or nota<0 else 'Sobresaliente' if nota >= 9 else 'Notable' if nota >= 7 else 'Bien' if nota >= 6 else 'Suficiente' if nota >=5 else 'Insuficiente' if nota>=3 else "Muy deficiente"}")
