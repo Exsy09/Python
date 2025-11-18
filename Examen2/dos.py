@@ -1,8 +1,10 @@
 def toDecimal(binario):
-    suma = 0
-    binarioL = list(binario)
-    for numero in binario:
-        binarioL.pop()
+    try:
+        decimal = int(binario, 2)
+        valor = decimal
+    except ValueError:
+        decimal = -1
+    return decimal
 
 
 
