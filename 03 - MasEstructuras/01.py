@@ -31,5 +31,3 @@ if 33 not in tupla:
 profesor = ("Jose Maria", "Morales", 57, False, True)
 nombre, apellido, edad, alumno, profesor = profesor
 print(apellido, edad)
-
-import random
