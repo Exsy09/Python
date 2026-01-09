@@ -1,6 +1,3 @@
-from more_itertools.more import nth_combination_with_replacement
-
-
 class Vehiculo():
     def __init__(self, matricula, añoCompra):
         self.matricula = matricula
@@ -13,7 +10,7 @@ class Coche(Vehiculo):
         self.nombre = "Jose María Morales"
         self.edad = 57
         self.añoCarnet = 39
-        self.puntos = 10
+        self.puntos = 9
 
     def todoRiesgo(self):
         if self.añoCompra == 2025:
